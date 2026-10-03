@@ -1,0 +1,20 @@
+{
+  "events": [
+    {"ts": 10, "path": "docs/a.txt", "op": "create"},
+    {"ts": 10, "path": "tmp/b.txt", "op": "create"},
+    {"ts": 11, "path": "docs/a.txt", "op": "write"},
+    {"ts": 12, "path": "docs/a.txt", "op": "write"},
+    {"ts": 12, "path": "tmp/b.txt", "op": "write"},
+    {"ts": 13, "path": "docs/a.txt", "op": "write"},
+    {"ts": 13, "path": "uploads/tmp/", "op": "list"},
+    {"ts": 13, "path": "bad.fail", "op": "create"},
+    {"ts": 15, "path": "gone.txt", "op": "create"},
+    {"ts": 16, "path": "docs/a.txt", "op": "write"},
+    {"ts": 16, "path": "gone.txt", "op": "remove"},
+    {"ts": 17, "path": "uploads/tmp/", "op": "list"},
+    {"ts": 17, "path": "skip.txt", "op": "create"},
+    {"ts": 18, "path": "skip.txt", "op": "rename"},
+    {"ts": 19, "path": "uploads/docs/", "op": "list"},
+    {"ts": 23, "path": "uploads/tmp/", "op": "list"}
+  ]
+}
